@@ -12,24 +12,42 @@ body{
     background-image: url(./SKATE.jpg);
     background-size: cover;
     padding-top: 50px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+    
+
+}
+
+h2{
+
+color: white;
+outline: red;
+
 
 }
 button{
 
-    background-color: #a0b8a9;
+    background-color: #9aeaf6;
     border-radius: 10px;
+    color: white;
+    
+
 }
 
-
-
+button:hover{
+    cursor: pointer;
+    background-color: #1b3094;
+}
 
 
  </style>
 
 <body>
-    <center><h1>SKATE MANIA</h1>
+    <center><h1>MONSTER MOTOR</h1>
+        <h2><marquee>BIENVENIDOS</marquee></h2>
         <h2>Nombres</h2>
+
 <input type="text"> 
         <h2>Apellidos</h2>
 <input type="text"> 
@@ -56,12 +74,19 @@ Femenino
     <option value="">Soacha</option>
     <option value="">Manizales</option>
 </select> <br> <br>
+    <h2>FOTO DE PERFIL</h2>
+    <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
+        <input type="file" name="imagen"/>
+    </form> 
+    <br>
+    <h2>INGRESE NUMERO DE TELEFONO</h2>
+    <input type="number"> <br>
+    <h2>NOMBRE DE USUARIO</h2>
+    <input type="text"> <br>
+    <h2>CONTRASEÑA</h2> 
+    <input type="password"> <br> <br> 
 
-
-
-
-
-
+    
 
 <button>REGISTRAR</button>
 </center>
